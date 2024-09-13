@@ -1,0 +1,82 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  /* Light green background */
+  color: #004d40;
+  /* Dark green text color */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007B55;
+  /* Green color for heading */
+  text-align: center;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  /* White background for items */
+  border: 1px solid #b2dfdb;
+  /* Light green border */
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #004d40;
+  transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+  background-color: #c8e6c9;
+  /* Slightly darker green on hover */
+}
+
+.cross-icon {
+  cursor: pointer;
+  margin-left: auto;
+  transition: fill 0.3s ease;
+}
+
+.cross-icon:hover {
+  fill: #004d40;
+  /* Darker green for hover effect */
+}
+
+.task-input {
+  width: calc(100% - 22px);
+  /* Full width minus padding */
+  padding: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.add-task-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007B55;
+  /* Green button */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #004d40;
+  /* Darker green on hover */
+}
