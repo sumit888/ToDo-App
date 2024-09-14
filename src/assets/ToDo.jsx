@@ -46,7 +46,6 @@ function ToDo(){
 
     return (
         <div className="app-container">
-            <h1>Today's TODO</h1>
             <ul className="task-list">
                 {tasks}
             </ul>

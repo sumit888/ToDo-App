@@ -1,3 +1,36 @@
+/* Header container styling */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  background-color: #e8f5e9;
+  /* Light green background */
+  color: #004d40;
+  /* Dark green text color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* Header title styling */
+.header-title {
+  color: #007B55;
+  /* Green color for the heading */
+  margin-bottom: 10px;
+}
+
+/* Date and time display styling */
+.date-time-display {
+  font-size: 24px;
+}
+
 .app-container {
   font-family: Arial, sans-serif;
   background-color: #e8f5e9;
@@ -54,8 +87,7 @@ h1 {
 }
 
 .task-input {
-  width: calc(100% - 22px);
-  /* Full width minus padding */
+  width: 100%;
   padding: 10px;
   border: 1px solid #b2dfdb;
   border-radius: 4px;
@@ -79,4 +111,74 @@ h1 {
 .add-task-button:hover {
   background-color: #004d40;
   /* Darker green on hover */
+}
+
+/* Stopwatch container styling */
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8f5e9;
+  /* Light green background */
+  color: #004d40;
+  /* Dark green text color */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Time display styling */
+.time-display {
+  font-size: 48px;
+  color: #007B55;
+  /* Green color for time display */
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Start button styling */
+.button-start {
+  background-color: #4caf50;
+  /* Green color for start button */
+  color: #fff;
+}
+
+/* Stop button styling */
+.button-stop {
+  background-color: #f44336;
+  /* Red color for stop button */
+  color: #fff;
+}
+
+/* Reset button styling */
+.button-reset {
+  background-color: #ff9800;
+  /* Orange color for reset button */
+  color: #fff;
+}
+
+/* Common button styling */
+.button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+/* Button hover effect */
+.button:hover {
+  opacity: 0.9;
+  /* Slightly transparent on hover */
 }
